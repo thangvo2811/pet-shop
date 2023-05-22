@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cdcdcd;
+  font-size: 16px;
+  max-width: 1440px;
+  padding: 40px 120px;
+  &__left {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    transition: all linear 0.3s;
+    &__active {
+      text-decoration: none;
+      color: #850af8;
+      font-weight: 500;
+    }
+    &__not {
+      text-decoration: none;
+      color: #cdcdcd;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+}

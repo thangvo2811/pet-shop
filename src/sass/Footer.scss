@@ -1,0 +1,38 @@
+.footer {
+  background: #410075;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &__left {
+    width: 50%;
+    p {
+      color: #fff;
+      font-weight: 400;
+      font-size: 17px;
+    }
+  }
+  &__right {
+    margin-top: 10px;
+    width: 50%;
+    text-align: right;
+    &__icons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+
+      &__style {
+        background: #fff;
+        padding: 10px;
+        border-radius: 8px;
+      }
+    }
+    p {
+      margin-top: 10px;
+      color: #fff;
+      font-weight: 400;
+      font-size: 17px;
+    }
+  }
+}

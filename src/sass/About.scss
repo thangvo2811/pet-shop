@@ -1,0 +1,52 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  &__left {
+    margin: 0 100px;
+    h3 {
+      color: #000000;
+      font-size: 32px;
+    }
+    p {
+      color: #000000;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0px;
+    }
+    div {
+      color: #595959;
+      font-weight: 400;
+      font-size: 20px;
+    }
+    ul li {
+      margin-left: 20px;
+      color: #595959;
+      font-size: 18px;
+    }
+  }
+  &__right {
+    max-width: 600px;
+    max-height: 500px;
+    margin-left: 200px;
+    &__content {
+      &__card {
+        &__circle {
+          position: relative;
+          right: 0;
+        }
+        &__bg {
+          position: absolute;
+          right: 0;
+          transform: translateY(20%);
+        }
+        &__dog {
+          position: absolute;
+          right: 0;
+          top: 35%;
+        }
+      }
+    }
+  }
+}
